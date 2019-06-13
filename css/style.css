@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: url(../assets/img/brooke-lark-230140-unsplash.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  font-family: 'Righteous', cursive;
+  color: tomato; }
+
+nav a {
+  color: darkblue; }
+
+nav .my-brand {
+  color: #ff6347;
+  border: 1 px solid white;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.9); }
+
+.my-button {
+  background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  border: 1px solid black;
+  color: tomato;
+  font-size: 13px;
+  padding: 6px 24px;
+  text-decoration: none; }
+  .my-button:hover {
+    background: linear-gradient(to bottom, #ffffff 5%, #808080 100%); }
+  .my-button:active {
+    position: relative;
+    top: 1px;
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6); }
+
+.explanation .my-row .enjoy {
+  color: darkblue; }
+
+.explanation .my-row .my-question h2 {
+  margin-bottom: 30px; }
+
+.explanation .my-row .my-question .my-button-row .my-button {
+  min-height: 91px; }
