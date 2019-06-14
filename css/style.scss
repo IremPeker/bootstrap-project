@@ -33,9 +33,27 @@ nav {
 
 //Header
 
-.my-button {
-	
-	background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+.explanation {
+    
+       .enjoy {
+            color: tomato;
+            // border-radius: 5px;
+       // background-color: rgba(255, 255, 255, 0.5);
+       margin-top: 50px;
+       margin-bottom: 30px;
+       }
+      .my-question {
+        h2 {
+        margin-bottom: 30px;
+        }
+        .my-button-row {
+            .my-button-col {
+            margin-right: 50px;
+          .my-button {
+          width: 115px;
+          // min-height: 91px;  //BUTTONS ARE NOT IN THE SAME HEIGHT
+           //max-height: 90px;
+           background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
     box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6); 
 	border-radius:15px;
 	border:1px solid black;
@@ -53,34 +71,41 @@ nav {
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 }
-
-.explanation {
-    .my-row {
-       .enjoy {
-            color: darkblue;
-            // border-radius: 5px;
-       // background-color: rgba(255, 255, 255, 0.5);
-       }
-      .my-question {
-        h2 {
-        margin-bottom: 30px;
-        }
-        .my-button-row {
-          .my-button {
-          // width: 90px;
-           min-height: 91px;  //BUTTONS ARE NOT IN THE SAME HEIGHT
-           //max-height: 90px;
     }
    }
   }
- }
+ 
 }
 
 //Responsive
 
 @media (max-width: 600px) {
 
+.explanation {
+   
+       .enjoy {
+           h1 {
+               font-size: 20px;
+                margin-bottom: 20px;
+           }
+       }
+      .my-question {
+        .question {
+             font-size: 1.5rem;
+         
+        }
+        .my-button-row {
+            .my-button-col {
+            height: 80px;
+          .my-button {
+              font-size: 8px;
+         
+    }
+    }
+   }
+  }
+ 
+}
 
 
-    
 }

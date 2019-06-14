@@ -18,27 +18,40 @@ nav .my-brand {
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.9); }
 
-.my-button {
-  background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
-  box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
-  border-radius: 15px;
-  border: 1px solid black;
+.explanation .enjoy {
   color: tomato;
-  font-size: 13px;
-  padding: 6px 24px;
-  text-decoration: none; }
-  .my-button:hover {
-    background: linear-gradient(to bottom, #ffffff 5%, #808080 100%); }
-  .my-button:active {
-    position: relative;
-    top: 1px;
-    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6); }
-
-.explanation .my-row .enjoy {
-  color: darkblue; }
-
-.explanation .my-row .my-question h2 {
+  margin-top: 50px;
   margin-bottom: 30px; }
 
-.explanation .my-row .my-question .my-button-row .my-button {
-  min-height: 91px; }
+.explanation .my-question h2 {
+  margin-bottom: 30px; }
+
+.explanation .my-question .my-button-row .my-button-col {
+  margin-right: 50px; }
+  .explanation .my-question .my-button-row .my-button-col .my-button {
+    width: 115px;
+    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    border: 1px solid black;
+    color: tomato;
+    font-size: 13px;
+    padding: 6px 24px;
+    text-decoration: none; }
+    .explanation .my-question .my-button-row .my-button-col .my-button:hover {
+      background: linear-gradient(to bottom, #ffffff 5%, #808080 100%); }
+    .explanation .my-question .my-button-row .my-button-col .my-button:active {
+      position: relative;
+      top: 1px;
+      box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6); }
+
+@media (max-width: 600px) {
+  .explanation .enjoy h1 {
+    font-size: 20px;
+    margin-bottom: 20px; }
+  .explanation .my-question .question {
+    font-size: 1.5rem; }
+  .explanation .my-question .my-button-row .my-button-col {
+    height: 80px; }
+    .explanation .my-question .my-button-row .my-button-col .my-button {
+      font-size: 8px; } }
