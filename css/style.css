@@ -47,23 +47,9 @@ nav .my-brand {
       box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6); }
 
 @media (max-width: 600px) {
-  .explanation .enjoy h1 {
-    font-size: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px; }
-  .explanation .my-question .question {
-    font-size: 1.5rem; }
-  .explanation .my-question .my-button-row .my-button-col {
-    height: 60px; }
-    .explanation .my-question .my-button-row .my-button-col .my-button {
-      width: 95px;
-      height: 35.4px;
-      font-size: 8px; } }
-
-@media (min-width: 600px) {
   .explanation {
     padding-left: 0px;
-    margin-top: 35px; }
+    margin-top: 20px; }
     .explanation .enjoy h1 {
       font-size: 20px;
       margin-bottom: 20px; }
@@ -75,3 +61,37 @@ nav .my-brand {
         width: 95px;
         height: 35.4px;
         font-size: 8px; } }
+
+@media (min-width: 600px) {
+  .explanation {
+    padding-left: 0px;
+    margin-top: 35px; }
+    .explanation .enjoy h1 {
+      font-size: 35px;
+      margin-bottom: 20px; }
+    .explanation .my-question .question {
+      font-size: 35px; }
+    .explanation .my-question .my-button-row .my-button-col {
+      margin-right: 75px;
+      height: 60px; }
+      .explanation .my-question .my-button-row .my-button-col .my-button {
+        width: 130px;
+        height: 96.4px;
+        font-size: 25px; } }
+
+@media (min-width: 1024px) {
+  .explanation {
+    padding-left: 0px;
+    margin-top: 35px; }
+    .explanation .enjoy h1 {
+      font-size: 35px;
+      margin-bottom: 20px; }
+    .explanation .my-question .question {
+      font-size: 25px; }
+    .explanation .my-question .my-button-row .my-button-col {
+      margin-right: 20px;
+      height: 60px; }
+      .explanation .my-question .my-button-row .my-button-col .my-button {
+        width: 95px;
+        height: 46.4px;
+        font-size: 12px; } }
