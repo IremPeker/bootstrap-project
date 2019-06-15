@@ -50,6 +50,7 @@ nav {
             .my-button-col {
             margin-right: 50px;
           .my-button {
+          height: 52.4px;
           width: 115px;
           // min-height: 91px;  //BUTTONS ARE NOT IN THE SAME HEIGHT
            //max-height: 90px;
@@ -86,6 +87,7 @@ nav {
        .enjoy {
            h1 {
                font-size: 20px;
+               margin-top: 20px;
                 margin-bottom: 20px;
            }
        }
@@ -96,8 +98,10 @@ nav {
         }
         .my-button-row {
             .my-button-col {
-            height: 80px;
+            height: 60px;
           .my-button {
+              width: 95px;
+              height: 35.4px;
               font-size: 8px;
          
     }
@@ -106,6 +110,37 @@ nav {
   }
  
 }
+}
 
+@media (min-width: 600px) {
 
+.explanation {
+   
+    padding-left: 0px;
+    margin-top: 35px;
+       .enjoy {
+           h1 {
+               font-size: 20px;  
+                margin-bottom: 20px;
+           }
+       }
+      .my-question {
+        .question {
+             font-size: 1.5rem;
+         
+        }
+        .my-button-row {
+            .my-button-col {
+            height: 60px;
+          .my-button {
+              width: 95px;
+              height: 35.4px;
+              font-size: 8px;
+         
+    }
+    }
+   }
+  }
+ 
+}
 }
