@@ -55,6 +55,8 @@ nav .my-brand {
 .my-card-row {
   background: rgba(255, 255, 255, 0.8);
   border-radius: 25px; }
+  .my-card-row .my-card a:hover {
+    color: tomato; }
 
 .my-footer {
   position: fixed;
@@ -62,6 +64,8 @@ nav .my-brand {
   bottom: 0;
   width: 100%;
   text-align: center; }
+  .my-footer a:hover {
+    color: tomato; }
 
 @media (max-width: 600px) {
   .explanation {

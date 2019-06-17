@@ -1,81 +1,78 @@
 *{
-    margin: 0;
-    padding: 0;
-    color: darkblue;
-    font-family: 'Righteous', cursive;
+ margin: 0;
+ padding: 0;
+ color: darkblue;
+ font-family: 'Righteous', cursive;
 }
 
 body {
 
-  background: url(../assets/img/brooke-lark-230140-unsplash.jpg) no-repeat center center fixed;
-  height: 100vh;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+background: url(../assets/img/brooke-lark-230140-unsplash.jpg) no-repeat center center fixed;
+height: 100vh;
+background-size: cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
 }
 
 //Navigation
 
 nav {
+ a {
+ color: darkblue;
+  &:hover {
+  color: tomato;
+  }
+}
 
-    a {
-        color: darkblue;
-        &:hover {
-            color: tomato;
-        }
-    }
-
-    .my-brand {
-        color: #ff6347; 
-        border: 1 px solid white;
-        border-radius: 5px;
-        background-color: rgba(255, 255, 255, 0.9);
-
-    
-     }
+ .my-brand {
+  color: #ff6347; 
+  border: 1 px solid white;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.9); 
+  }
 }
 
 //Header
 
 .explanation {
-    .my-row { 
-        margin-left: 45px;
-       .enjoy {
-       margin-top: 50px;
+  .my-row { 
+   margin-left: 45px;
+    .enjoy {
+     margin-top: 50px;
+     margin-bottom: 30px;
+     }
+      .my-question {
+       h2 {
        margin-bottom: 30px;
        }
-      .my-question {
-        h2 {
-        margin-bottom: 30px;
-        }
         .my-button-row {
-            .my-button-col {
-            margin-right: 50px;
-            a {
-                text-decoration: none;
-            }
-          .my-button {
-          height: 52.4px;
-          width: 115px;
-           background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
-    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6); 
-	border-radius:15px;
-	border:1px solid black;
-	color: darkblue;	
-	font-size:13px;
-	padding:6px 24px;
-	text-decoration:none;
+         .my-button-col {
+          margin-right: 50px;
+           a {
+           text-decoration: none;
+           }
+            .my-button {
+             height: 52.4px;
+             width: 115px;
+             background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+             box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6); 
+	         border-radius:15px;
+	         border:1px solid black;
+	         color: darkblue;	
+	         font-size:13px;
+	         padding:6px 24px;
+	         text-decoration:none;
 
-    &:hover {
-	background:linear-gradient(to bottom, #ffffff 5%, #808080 100%);
-}
-    &:active {
-	position:relative;
-    top:1px;
-    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
-}
-}
+              &:hover {
+	          background:linear-gradient(to bottom, #ffffff 5%, #808080 100%);
+              }
+              &:active {
+	          position:relative;
+              top:1px;
+              box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+      }
+     }
     }
    }
   }
@@ -85,19 +82,26 @@ nav {
 //Cards
 
 .my-card-row {
-    background: rgba(255, 255, 255, 0.8);
-    border-radius: 25px;
+ background: rgba(255, 255, 255, 0.8);
+ border-radius: 25px;
+  .my-card {
+   a:hover {
+   color: tomato;
+   }
+  }
 }
 
 //Footer
 
 .my-footer {
-     position: fixed;
-     left: 0;
-  bottom: 0;
-   width: 100%;
-   text-align: center;
-
+ position: fixed;
+ left: 0;
+ bottom: 0;
+ width: 100%;
+ text-align: center;
+  a:hover {
+  color: tomato;
+  }
 }
 
 //Responsive
@@ -105,108 +109,99 @@ nav {
 @media (max-width: 600px) {
 
 .explanation {
-    width: 100%;
-    .my-row { 
-        width: 100%;
-        margin-left: 0px;
-        margin-top: 40px;
-        background: rgba(255, 255, 255, 0.6);
-        border-radius: 25px;
-       .enjoy {
-           h1 {
-               font-size: 20px;
-               margin-bottom: 20px;
-           }
+ width: 100%;
+  .my-row { 
+   width: 100%;
+   margin-left: 0px;
+   margin-top: 40px;
+   background: rgba(255, 255, 255, 0.6);
+   border-radius: 25px;
+    .enjoy {
+     h1 {
+     font-size: 20px;
+     margin-bottom: 20px;
+     }
+    }
+     .my-question {
+      .question {
+       font-size: 1.5rem;  
        }
-      .my-question {
-        .question {
-             font-size: 1.5rem;
-         
-        }
-        .my-button-row {
-            .my-button-col {
-            height: 60px;
+       .my-button-row {
+        .my-button-col {
+         height: 60px;
           .my-button {
-              width: 95px;
-              height: 41.4px;
-              font-size: 10px;
-         
-    }
-    }
-   }
-  }
- }
-}
-
-}
+           width: 95px;
+           height: 41.4px;
+           font-size: 10px;
+           }
+          }
+         }
+        }
+       }
+      }
+     }
 
 @media (min-width: 600px) {
 
 .explanation {
-   
-    padding-left: 0px;
-    margin-top: 35px;
-    .my-row { 
-       .enjoy {
-           h1 {
-               font-size: 35px;  
-                margin-bottom: 20px;
-           }
-       }
-      .my-question {
-        .question {
-             font-size: 35px;
-         
-        }
-        .my-button-row {
-            .my-button-col {
-            margin-right: 75px;
-            height: 60px;
-          .my-button {
-              width: 130px;
-              height: 60.4px;
-              font-size: 15px;
-         
-    }
+ padding-left: 0px;
+ margin-top: 35px;
+  .my-row { 
+   .enjoy {
+    h1 {
+     font-size: 35px;  
+     margin-bottom: 20px;
     }
    }
-  }
- }
-}
-}
+     .my-question {
+      .question {
+       font-size: 35px;  
+       }
+       .my-button-row {
+        .my-button-col {
+         margin-right: 75px;
+         height: 60px;
+          .my-button {
+           width: 130px;
+           height: 60.4px;
+           font-size: 15px;
+           }
+          }
+         }
+        }
+       }
+      }
+     }
 
 @media (min-width: 1024px) {
 
 .explanation {
-   
-    padding-left: 0px;
-    margin-top: 35px;
-    .my-row { 
-       .enjoy {
-           h1 {
-               font-size: 35px;  
-                margin-bottom: 20px;
-           }
-       }
-      .my-question {
-        .question {
-             font-size: 25px;
-         
-        }
-        .my-button-row {
-            margin-left: 40px;
-            .my-button-col {
-            margin-right: 20px;
-            height: 60px;
-          .my-button {
-              width: 95px;
-              height: 46.4px;
-              font-size: 12px;
-         
-    }
+ padding-left: 0px;
+ margin-top: 35px;
+  .my-row { 
+   .enjoy {
+    h1 {
+    font-size: 35px;  
+    margin-bottom: 20px;
     }
    }
-  }
- }
-}
-}
+    .my-question {
+     .question {
+      font-size: 25px;   
+      }
+     .my-button-row {
+      margin-left: 40px;
+       .my-button-col {
+        margin-right: 20px;
+        height: 60px;
+         .my-button {
+          width: 95px;
+          height: 46.4px;
+          font-size: 12px;
+          }
+         }
+        }
+       }
+      }
+     }
+    }
