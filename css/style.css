@@ -4,8 +4,11 @@
 
 body {
   background: url(../assets/img/brooke-lark-230140-unsplash.jpg) no-repeat center center fixed;
-  background-size: cover;
   height: 100%;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   font-family: 'Righteous', cursive;
   color: tomato; }
 
@@ -18,48 +21,50 @@ nav .my-brand {
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.9); }
 
-.explanation .my-row .enjoy {
-  color: tomato;
-  margin-top: 50px;
-  margin-bottom: 30px; }
-
-.explanation .my-row .my-question h2 {
-  margin-bottom: 30px; }
-
-.explanation .my-row .my-question .my-button-row .my-button-col {
-  margin-right: 50px; }
-  .explanation .my-row .my-question .my-button-row .my-button-col .my-button {
-    height: 52.4px;
-    width: 115px;
-    background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
-    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
-    border-radius: 15px;
-    border: 1px solid black;
+.explanation .my-row {
+  margin-left: 45px; }
+  .explanation .my-row .enjoy {
     color: tomato;
-    font-size: 13px;
-    padding: 6px 24px;
-    text-decoration: none; }
-    .explanation .my-row .my-question .my-button-row .my-button-col .my-button:hover {
-      background: linear-gradient(to bottom, #ffffff 5%, #808080 100%); }
-    .explanation .my-row .my-question .my-button-row .my-button-col .my-button:active {
-      position: relative;
-      top: 1px;
-      box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6); }
+    margin-top: 50px;
+    margin-bottom: 30px; }
+  .explanation .my-row .my-question h2 {
+    margin-bottom: 30px; }
+  .explanation .my-row .my-question .my-button-row .my-button-col {
+    margin-right: 50px; }
+    .explanation .my-row .my-question .my-button-row .my-button-col .my-button {
+      height: 52.4px;
+      width: 115px;
+      background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
+      box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+      border-radius: 15px;
+      border: 1px solid black;
+      color: tomato;
+      font-size: 13px;
+      padding: 6px 24px;
+      text-decoration: none; }
+      .explanation .my-row .my-question .my-button-row .my-button-col .my-button:hover {
+        background: linear-gradient(to bottom, #ffffff 5%, #808080 100%); }
+      .explanation .my-row .my-question .my-button-row .my-button-col .my-button:active {
+        position: relative;
+        top: 1px;
+        box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6); }
 
 @media (max-width: 600px) {
   .explanation {
     width: 100%; }
-    .explanation .my-row .enjoy h1 {
-      font-size: 20px;
-      margin-bottom: 20px; }
-    .explanation .my-row .my-question .question {
-      font-size: 1.5rem; }
-    .explanation .my-row .my-question .my-button-row .my-button-col {
-      height: 60px; }
-      .explanation .my-row .my-question .my-button-row .my-button-col .my-button {
-        width: 95px;
-        height: 35.4px;
-        font-size: 8px; } }
+    .explanation .my-row {
+      margin-left: 70px; }
+      .explanation .my-row .enjoy h1 {
+        font-size: 20px;
+        margin-bottom: 20px; }
+      .explanation .my-row .my-question .question {
+        font-size: 1.5rem; }
+      .explanation .my-row .my-question .my-button-row .my-button-col {
+        height: 60px; }
+        .explanation .my-row .my-question .my-button-row .my-button-col .my-button {
+          width: 95px;
+          height: 35.4px;
+          font-size: 8px; } }
 
 @media (min-width: 600px) {
   .explanation {
