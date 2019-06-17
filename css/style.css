@@ -1,6 +1,8 @@
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  color: darkblue;
+  font-family: 'Righteous', cursive; }
 
 body {
   background: url(../assets/img/brooke-lark-230140-unsplash.jpg) no-repeat center center fixed;
@@ -8,12 +10,12 @@ body {
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
-  font-family: 'Righteous', cursive;
-  color: tomato; }
+  -o-background-size: cover; }
 
 nav a {
   color: darkblue; }
+  nav a:hover {
+    color: tomato; }
 
 nav .my-brand {
   color: #ff6347;
@@ -24,7 +26,6 @@ nav .my-brand {
 .explanation .my-row {
   margin-left: 45px; }
   .explanation .my-row .enjoy {
-    color: tomato;
     margin-top: 50px;
     margin-bottom: 30px; }
   .explanation .my-row .my-question h2 {
@@ -38,7 +39,7 @@ nav .my-brand {
       box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6);
       border-radius: 15px;
       border: 1px solid black;
-      color: tomato;
+      color: darkblue;
       font-size: 13px;
       padding: 6px 24px;
       text-decoration: none; }
@@ -54,7 +55,10 @@ nav .my-brand {
     width: 100%; }
     .explanation .my-row {
       width: 100%;
-      margin-left: 25px; }
+      margin-left: 0px;
+      margin-top: 40px;
+      background: rgba(255, 255, 255, 0.6);
+      border-radius: 25px; }
       .explanation .my-row .enjoy h1 {
         font-size: 20px;
         margin-bottom: 20px; }

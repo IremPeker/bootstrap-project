@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    color: darkblue;
+    font-family: 'Righteous', cursive;
 }
 
 body {
@@ -11,9 +13,6 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  //overflow: hidden;
-  font-family: 'Righteous', cursive;
-  color: tomato;
 }
 
 //Navigation
@@ -22,6 +21,9 @@ nav {
 
     a {
         color: darkblue;
+        &:hover {
+            color: tomato;
+        }
     }
 
     .my-brand {
@@ -40,7 +42,6 @@ nav {
     .my-row { 
         margin-left: 45px;
        .enjoy {
-       color: tomato;
        margin-top: 50px;
        margin-bottom: 30px;
        }
@@ -58,7 +59,7 @@ nav {
     box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6); 
 	border-radius:15px;
 	border:1px solid black;
-	color: tomato;	
+	color: darkblue;	
 	font-size:13px;
 	padding:6px 24px;
 	text-decoration:none;
@@ -86,7 +87,10 @@ nav {
     width: 100%;
     .my-row { 
         width: 100%;
-        margin-left: 25px;
+        margin-left: 0px;
+        margin-top: 40px;
+        background: rgba(255, 255, 255, 0.6);
+        border-radius: 25px;
        .enjoy {
            h1 {
                font-size: 20px;
