@@ -53,7 +53,8 @@ nav .my-brand {
   .explanation {
     width: 100%; }
     .explanation .my-row {
-      margin-left: 150px; }
+      width: 100%;
+      margin-left: 45px; }
       .explanation .my-row .enjoy h1 {
         font-size: 20px;
         margin-bottom: 20px; }
