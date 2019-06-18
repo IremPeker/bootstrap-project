@@ -78,6 +78,12 @@ nav .my-brand {
     .my-contact-container .my-contact-row .my-address-col {
       justify-content: center; }
 
+.my-ingredient-container {
+  margin-top: 50px; }
+  .my-ingredient-container .my-ingredient-row {
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 15px; }
+
 @media (max-width: 600px) {
   .explanation {
     width: 100%; }
@@ -99,10 +105,13 @@ nav .my-brand {
           height: 41.4px;
           font-size: 10px; }
   .my-contact-container .my-contact-row {
-    height: 500px; }
+    height: 515px; }
     .my-contact-container .my-contact-row .my-address-col {
       margin-top: 25px;
-      justify-content: flex-start; } }
+      justify-content: flex-start; }
+  .my-ingredient-container .my-ingredient-row {
+    flex-direction: column;
+    align-content: center; } }
 
 @media (min-width: 600px) {
   .explanation {
@@ -129,7 +138,9 @@ nav .my-brand {
 @media (min-width: 750px) {
   .my-contact-container .my-contact-row {
     height: 360px;
-    flex-direction: column; } }
+    flex-direction: column; }
+  .my-ingredient-container .my-ingredient-row .ingredient-col {
+    margin-top: 40px; } }
 
 @media (min-width: 1024px) {
   .explanation {
@@ -151,4 +162,6 @@ nav .my-brand {
           font-size: 12px; }
   .my-contact-container .my-contact-row {
     height: 360px;
-    flex-direction: column; } }
+    flex-direction: column; }
+  .my-ingredient-container .my-ingredient-row .ingredient-col {
+    margin-top: 60px; } }
