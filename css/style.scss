@@ -5,6 +5,23 @@
  font-family: 'Righteous', cursive;
 }
 
+//VARIABLES
+
+//$favMargin: 30px;
+$colBlue: darkblue;
+$colTomato: tomato; 
+$favBackground:rgba(255, 255, 255, 0.6);
+$favRadius: 15px;
+
+// MIXINS
+
+//@mixin flex($direction) {
+//    display: flex;
+//    flex-direction: $direction;
+//    justify-content: center;
+//}
+
+
 body {
 
 background: url(../assets/img/brooke-lark-230140-unsplash.jpg) no-repeat center center fixed;
@@ -19,14 +36,14 @@ background-size: cover;
 
 nav {
  a {
- color: darkblue;
+ color: $colBlue;
   &:hover {
-  color: tomato;
+  color: $colTomato;
   }
 }
 
  .my-brand {
-  color: #ff6347; 
+  color: $colTomato; 
   border: 1 px solid white;
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.9); 
@@ -57,9 +74,9 @@ nav {
              width: 115px;
              background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
              box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6); 
-	         border-radius:15px;
+	         border-radius:$favRadius;
 	         border:1px solid black;
-	         color: darkblue;	
+	         color: $colBlue;	
 	         font-size:13px;
 	         padding:6px 24px;
 	         text-decoration:none;
@@ -88,7 +105,7 @@ nav {
  width: 100%;
  text-align: center;
   a:hover {
-  color: tomato;
+  color: $colTomato;
   }
 }
 
@@ -96,10 +113,10 @@ nav {
 
 .my-card-row {
  background: rgba(255, 255, 255, 0.8);
- border-radius: 25px;
+ border-radius: $favRadius;
   .my-card {
    a:hover {
-   color: tomato;
+   color: $colTomato;
    }
   }
 }
@@ -115,8 +132,8 @@ nav {
 .my-contact-container {
 margin-top: 50px;
  .my-contact-row {
- background: rgba(255, 255, 255, 0.6);
- border-radius: 15px;
+ background: $favBackground;
+ border-radius: $favRadius;
   .my-address-col {
    justify-content: center;
   }
@@ -128,8 +145,8 @@ margin-top: 50px;
 .my-ingredient-container {
   margin-top: 50px;
  .my-ingredient-row {
-  background: rgba(255, 255, 255, 0.6);
-  border-radius: 15px;
+  background: $favBackground;
+  border-radius: $favRadius;
   .ingredient-col {
     .my-button-row {
          .my-button-col {
@@ -142,9 +159,9 @@ margin-top: 50px;
              width: 115px;
              background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
              box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6), inset -2px -2px 3px rgba(0, 0, 0, 0.6); 
-	         border-radius:15px;
+	         border-radius:$favRadius;
 	         border:1px solid black;
-	         color: darkblue;	
+	         color: $colBlue;	
 	         font-size:13px;
 	         padding:6px 24px;
 	         text-decoration:none;
@@ -174,8 +191,8 @@ margin-top: 50px;
    width: 100%;
    margin-left: 0px;
    margin-top: 40px;
-   background: rgba(255, 255, 255, 0.6);
-   border-radius: 25px;
+   background: $favBackground;
+   border-radius: $favRadius;
     .enjoy {
      h1 {
      font-size: 20px;
@@ -199,6 +216,9 @@ margin-top: 50px;
         }
        }
       }
+.my-footer {
+ margin-top: 5px;
+ }
 .my-contact-container {
  .my-contact-row {
   height: 515px;
