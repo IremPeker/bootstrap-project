@@ -216,9 +216,6 @@ margin-top: 50px;
         }
        }
       }
-.my-footer {
- margin-top: 5px;
- }
 .my-contact-container {
  .my-contact-row {
   height: 515px;
@@ -230,6 +227,8 @@ margin-top: 50px;
  }
  .my-ingredient-container {
    .my-ingredient-row {
+     height: 500px;
+     margin-bottom: 10px;
      flex-direction: column;
      align-content: center;
    }

@@ -125,14 +125,14 @@ nav .my-brand {
           width: 95px;
           height: 41.4px;
           font-size: 10px; }
-  .my-footer {
-    margin-top: 5px; }
   .my-contact-container .my-contact-row {
     height: 515px; }
     .my-contact-container .my-contact-row .my-address-col {
       margin-top: 25px;
       justify-content: flex-start; }
   .my-ingredient-container .my-ingredient-row {
+    height: 500px;
+    margin-bottom: 10px;
     flex-direction: column;
     align-content: center; } }
 
