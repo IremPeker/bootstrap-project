@@ -52,6 +52,15 @@ nav .my-brand {
         top: 1px;
         box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6); }
 
+.my-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center; }
+  .my-footer a:hover {
+    color: tomato; }
+
 .my-card-row {
   background: rgba(255, 255, 255, 0.8);
   border-radius: 25px; }
@@ -61,14 +70,13 @@ nav .my-brand {
 .how-works {
   line-height: 1.5; }
 
-.my-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center; }
-  .my-footer a:hover {
-    color: tomato; }
+.my-contact-container {
+  margin-top: 50px; }
+  .my-contact-container .my-contact-row {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px; }
+    .my-contact-container .my-contact-row .my-address-col {
+      justify-content: center; }
 
 @media (max-width: 600px) {
   .explanation {
@@ -89,7 +97,12 @@ nav .my-brand {
         .explanation .my-row .my-question .my-button-row .my-button-col .my-button {
           width: 95px;
           height: 41.4px;
-          font-size: 10px; } }
+          font-size: 10px; }
+  .my-contact-container .my-contact-row {
+    height: 500px; }
+    .my-contact-container .my-contact-row .my-address-col {
+      margin-top: 25px;
+      justify-content: flex-start; } }
 
 @media (min-width: 600px) {
   .explanation {
@@ -106,7 +119,17 @@ nav .my-brand {
       .explanation .my-row .my-question .my-button-row .my-button-col .my-button {
         width: 130px;
         height: 60.4px;
-        font-size: 15px; } }
+        font-size: 15px; }
+  .my-contact-container .my-contact-row {
+    height: 530px; }
+    .my-contact-container .my-contact-row .my-address-col {
+      margin-top: 25px;
+      justify-content: flex-start; } }
+
+@media (min-width: 750px) {
+  .my-contact-container .my-contact-row {
+    height: 360px;
+    flex-direction: column; } }
 
 @media (min-width: 1024px) {
   .explanation {
@@ -125,4 +148,7 @@ nav .my-brand {
         .explanation .my-row .my-question .my-button-row .my-button-col .my-button {
           width: 95px;
           height: 46.4px;
-          font-size: 12px; } }
+          font-size: 12px; }
+  .my-contact-container .my-contact-row {
+    height: 360px;
+    flex-direction: column; } }

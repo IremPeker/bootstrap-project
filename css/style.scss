@@ -79,6 +79,19 @@ nav {
  }
 }
 
+//Footer
+
+.my-footer {
+ position: fixed;
+ left: 0;
+ bottom: 0;
+ width: 100%;
+ text-align: center;
+  a:hover {
+  color: tomato;
+  }
+}
+
 //Cards
 
 .my-card-row {
@@ -97,17 +110,17 @@ nav {
     line-height: 1.5;
 }
 
-//Footer
+//Contact
 
-.my-footer {
- position: fixed;
- left: 0;
- bottom: 0;
- width: 100%;
- text-align: center;
-  a:hover {
-  color: tomato;
+.my-contact-container {
+margin-top: 50px;
+ .my-contact-row {
+ background: rgba(255, 255, 255, 0.8);
+ border-radius: 15px;
+  .my-address-col {
+   justify-content: center;
   }
+ }
 }
 
 //Responsive
@@ -145,9 +158,18 @@ nav {
         }
        }
       }
-     }
+.my-contact-container {
+ .my-contact-row {
+  height: 500px;
+   .my-address-col {
+    margin-top: 25px;
+    justify-content: flex-start;
+   }
+  }
+ }
+}
 
-@media (min-width: 600px) {
+@media (min-width: 600px){
 
 .explanation {
  padding-left: 0px;
@@ -177,7 +199,26 @@ nav {
         }
        }
       }
-     }
+
+.my-contact-container {
+ .my-contact-row {
+  height: 530px;
+   .my-address-col {
+    margin-top: 25px;
+    justify-content: flex-start;
+   }
+  }
+ }
+}
+
+@media (min-width: 750px){ 
+    .my-contact-container {
+ .my-contact-row {
+  height: 360px;
+  flex-direction: column;
+  }
+ }
+}
 
 @media (min-width: 1024px) {
 
@@ -210,4 +251,11 @@ nav {
        }
       }
      }
-    }
+.my-contact-container {
+
+    .my-contact-row {
+ height: 360px;
+ flex-direction: column;
+  }
+ }
+}
