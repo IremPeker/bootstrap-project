@@ -64,8 +64,6 @@ nav .my-brand {
 .my-card-row {
   background: white;
   border-radius: 15px; }
-  .my-card-row .my-card a:hover {
-    color: tomato; }
 
 .explanation-how .my-row .how-works {
   margin-top: 50px;
