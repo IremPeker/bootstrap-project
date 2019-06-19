@@ -71,6 +71,9 @@ nav .my-brand {
   margin-top: 50px;
   margin-bottom: 30px;
   line-height: 1.5; }
+  .explanation-how .my-row .how-works a:hover {
+    color: tomato;
+    text-decoration: none; }
 
 .my-contact-container {
   margin-top: 50px; }
@@ -106,9 +109,8 @@ nav .my-brand {
           position: relative;
           top: 1px;
           box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6); }
-    .my-ingredient-container .my-ingredient-row .ingredient-col .my-table .my-icon {
-      width: 100px;
-      height: 100px; }
+    .my-ingredient-container .my-ingredient-row .ingredient-col .my-checkbox-label {
+      font-size: 15px; }
 
 @media (max-width: 600px) {
   .explanation {
@@ -116,9 +118,7 @@ nav .my-brand {
     .explanation .my-row {
       width: 100%;
       margin-left: 0px;
-      margin-top: 40px;
-      background: rgba(255, 255, 255, 0.8);
-      border-radius: 15px; }
+      margin-top: 40px; }
       .explanation .my-row .enjoy h1 {
         font-size: 20px;
         margin-bottom: 20px; }

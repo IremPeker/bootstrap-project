@@ -15,12 +15,6 @@ $favRadius: 15px;
 
 // MIXINS
 
-//@mixin flex($direction) {
-//    display: flex;
-//    flex-direction: $direction;
-//    justify-content: center;
-//}
-
 //Background
 
 body {
@@ -130,6 +124,10 @@ nav {
      margin-top: 50px;
      margin-bottom: 30px;
     line-height: 1.5;
+    a:hover {
+      color: $colTomato;
+      text-decoration: none;
+    }
   }
  }
 }
@@ -184,16 +182,12 @@ margin-top: 50px;
      }
     }
   .ingredient-col {
-   .my-table {
-    .my-icon {
-     width: 100px;
-     height: 100px;
-}
-    }
-    
+   .my-checkbox-label {
+     font-size: 15px;
    }
   }
  }
+}
 
 //RESPONSIVE
 
@@ -207,8 +201,8 @@ margin-top: 50px;
    width: 100%;
    margin-left: 0px;
    margin-top: 40px;
-   background: $favBackground;
-   border-radius: $favRadius;
+   //background: $favBackground;
+   //border-radius: $favRadius;
     .enjoy {
      h1 {
      font-size: 20px;
@@ -380,7 +374,7 @@ margin-top: 50px;
  }
 
  //Ingredients
- 
+
 .my-ingredient-container {
  .my-ingredient-row {
    height: 445px;
