@@ -94,11 +94,6 @@ nav {
 //Footer
 
 .my-footer {
- position: fixed;
- left: 0;
- bottom: 0;
- width: 100%;
- text-align: center;
   a:hover {
   color: $colTomato;
   }
@@ -116,7 +111,7 @@ nav {
 .explanation-how {
   .my-row {
    .how-works {
-     margin-top: 50px;
+     margin-top: 20px;
      margin-bottom: 30px;
     line-height: 1.5;
     a:hover {
@@ -129,7 +124,7 @@ nav {
 //Contact
 
 .my-contact-container {
-margin-top: 50px;
+margin-top: 30px;
  .my-contact-row {
  background: $favBackground;
  border-radius: $favRadius;
@@ -195,9 +190,6 @@ margin-top: 50px;
   .my-row { 
    width: 100%;
    margin-left: 0px;
-   margin-top: 40px;
-   //background: $favBackground;
-   //border-radius: $favRadius;
     .enjoy {
      h1 {
      font-size: 20px;

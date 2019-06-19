@@ -52,21 +52,15 @@ nav .my-brand {
         top: 1px;
         box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6); }
 
-.my-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center; }
-  .my-footer a:hover {
-    color: tomato; }
+.my-footer a:hover {
+  color: tomato; }
 
 .my-card-row {
   background: white;
   border-radius: 15px; }
 
 .explanation-how .my-row .how-works {
-  margin-top: 50px;
+  margin-top: 20px;
   margin-bottom: 30px;
   line-height: 1.5; }
   .explanation-how .my-row .how-works a:hover {
@@ -74,7 +68,7 @@ nav .my-brand {
     text-decoration: none; }
 
 .my-contact-container {
-  margin-top: 50px; }
+  margin-top: 30px; }
   .my-contact-container .my-contact-row {
     background: rgba(255, 255, 255, 0.8);
     border-radius: 15px; }
@@ -116,8 +110,7 @@ nav .my-brand {
     width: 100%; }
     .explanation .my-row {
       width: 100%;
-      margin-left: 0px;
-      margin-top: 40px; }
+      margin-left: 0px; }
       .explanation .my-row .enjoy h1 {
         font-size: 20px;
         margin-bottom: 20px; }
