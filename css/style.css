@@ -87,6 +87,7 @@ nav .my-brand {
   margin-top: 50px;
   background: rgba(255, 255, 255, 0.8); }
   .my-ingredient-container .my-ingredient-row {
+    background: rgba(255, 255, 255, 0.8);
     border-radius: 15px; }
     .my-ingredient-container .my-ingredient-row .my-button-row .my-button-col {
       margin-right: 50px; }
@@ -136,7 +137,7 @@ nav .my-brand {
       margin-top: 25px;
       justify-content: flex-start; }
   .my-ingredient-container .my-ingredient-row {
-    height: 525px;
+    height: 585px;
     margin-bottom: 15px;
     flex-direction: row;
     align-content: center; }
