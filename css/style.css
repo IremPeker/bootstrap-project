@@ -62,32 +62,34 @@ nav .my-brand {
     color: tomato; }
 
 .my-card-row {
-  background: rgba(255, 255, 255, 0.8);
+  background: white;
   border-radius: 15px; }
   .my-card-row .my-card a:hover {
     color: tomato; }
 
-.how-works {
+.explanation-how .my-row .how-works {
+  margin-top: 50px;
+  margin-bottom: 30px;
   line-height: 1.5; }
 
 .my-contact-container {
   margin-top: 50px; }
   .my-contact-container .my-contact-row {
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.8);
     border-radius: 15px; }
     .my-contact-container .my-contact-row .my-address-col {
       justify-content: center; }
 
 .my-ingredient-container {
-  margin-top: 50px; }
+  margin-top: 50px;
+  background: rgba(255, 255, 255, 0.8); }
   .my-ingredient-container .my-ingredient-row {
-    background: rgba(255, 255, 255, 0.6);
     border-radius: 15px; }
-    .my-ingredient-container .my-ingredient-row .ingredient-col .my-button-row .my-button-col {
+    .my-ingredient-container .my-ingredient-row .my-button-row .my-button-col {
       margin-right: 50px; }
-      .my-ingredient-container .my-ingredient-row .ingredient-col .my-button-row .my-button-col a {
+      .my-ingredient-container .my-ingredient-row .my-button-row .my-button-col a {
         text-decoration: none; }
-      .my-ingredient-container .my-ingredient-row .ingredient-col .my-button-row .my-button-col .my-button {
+      .my-ingredient-container .my-ingredient-row .my-button-row .my-button-col .my-button {
         height: 52.4px;
         width: 115px;
         background-image: linear-gradient(to top left, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 30%, rgba(0, 0, 0, 0));
@@ -98,12 +100,15 @@ nav .my-brand {
         font-size: 13px;
         padding: 6px 24px;
         text-decoration: none; }
-        .my-ingredient-container .my-ingredient-row .ingredient-col .my-button-row .my-button-col .my-button:hover {
+        .my-ingredient-container .my-ingredient-row .my-button-row .my-button-col .my-button:hover {
           background: linear-gradient(to bottom, #ffffff 5%, #808080 100%); }
-        .my-ingredient-container .my-ingredient-row .ingredient-col .my-button-row .my-button-col .my-button:active {
+        .my-ingredient-container .my-ingredient-row .my-button-row .my-button-col .my-button:active {
           position: relative;
           top: 1px;
           box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6); }
+    .my-ingredient-container .my-ingredient-row .ingredient-col .my-table .my-icon {
+      width: 100px;
+      height: 100px; }
 
 @media (max-width: 600px) {
   .explanation {
@@ -112,7 +117,7 @@ nav .my-brand {
       width: 100%;
       margin-left: 0px;
       margin-top: 40px;
-      background: rgba(255, 255, 255, 0.6);
+      background: rgba(255, 255, 255, 0.8);
       border-radius: 15px; }
       .explanation .my-row .enjoy h1 {
         font-size: 20px;
@@ -131,10 +136,14 @@ nav .my-brand {
       margin-top: 25px;
       justify-content: flex-start; }
   .my-ingredient-container .my-ingredient-row {
-    height: 500px;
-    margin-bottom: 10px;
-    flex-direction: column;
-    align-content: center; } }
+    height: 525px;
+    margin-bottom: 15px;
+    flex-direction: row;
+    align-content: center; }
+  .explanation-how .my-row .how-works {
+    font-size: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 15px; } }
 
 @media (min-width: 600px) {
   .explanation {
@@ -186,5 +195,7 @@ nav .my-brand {
   .my-contact-container .my-contact-row {
     height: 360px;
     flex-direction: column; }
-  .my-ingredient-container .my-ingredient-row .ingredient-col {
-    margin-top: 60px; } }
+  .my-ingredient-container .my-ingredient-row {
+    height: 445px; }
+    .my-ingredient-container .my-ingredient-row .ingredient-col {
+      margin-top: 60px; } }

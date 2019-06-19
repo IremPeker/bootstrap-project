@@ -10,7 +10,7 @@
 //$favMargin: 30px;
 $colBlue: darkblue;
 $colTomato: tomato; 
-$favBackground:rgba(255, 255, 255, 0.6);
+$favBackground:rgba(255, 255, 255, 0.8);
 $favRadius: 15px;
 
 // MIXINS
@@ -21,6 +21,7 @@ $favRadius: 15px;
 //    justify-content: center;
 //}
 
+//Background
 
 body {
 
@@ -50,7 +51,7 @@ nav {
   }
 }
 
-//Header
+//Home
 
 .explanation {
   .my-row { 
@@ -112,7 +113,7 @@ nav {
 //Cards
 
 .my-card-row {
- background: rgba(255, 255, 255, 0.8);
+ background: rgb(255, 255, 255);
  border-radius: $favRadius;
   .my-card {
    a:hover {
@@ -123,10 +124,15 @@ nav {
 
 //How It Works
 
-.how-works {
+.explanation-how {
+  .my-row {
+   .how-works {
+     margin-top: 50px;
+     margin-bottom: 30px;
     line-height: 1.5;
+  }
+ }
 }
-
 //Contact
 
 .my-contact-container {
@@ -144,11 +150,11 @@ margin-top: 50px;
 
 .my-ingredient-container {
   margin-top: 50px;
+  background:$favBackground;
  .my-ingredient-row {
-  background: $favBackground;
+ // background: $favBackground;
   border-radius: $favRadius;
-  .ingredient-col {
-    .my-button-row {
+  .my-button-row {
          .my-button-col {
           margin-right: 50px;
            a {
@@ -177,13 +183,23 @@ margin-top: 50px;
       }
      }
     }
+  .ingredient-col {
+   .my-table {
+    .my-icon {
+     width: 100px;
+     height: 100px;
+}
+    }
+    
    }
   }
  }
 
-//Responsive
+//RESPONSIVE
 
 @media (max-width: 600px) {
+
+//Home
 
 .explanation {
  width: 100%;
@@ -216,6 +232,9 @@ margin-top: 50px;
         }
        }
       }
+
+//Contact
+
 .my-contact-container {
  .my-contact-row {
   height: 515px;
@@ -225,17 +244,34 @@ margin-top: 50px;
    }
   }
  }
+
+ //Ingredients
+
  .my-ingredient-container {
    .my-ingredient-row {
-     height: 500px;
-     margin-bottom: 10px;
-     flex-direction: column;
+     height: 525px;
+     margin-bottom: 15px;
+     flex-direction: row;
      align-content: center;
    }
+ }
+
+ //How It Works
+
+ .explanation-how {
+  .my-row {
+   .how-works {
+     font-size: 20px;
+     background: $favBackground;
+   border-radius: $favRadius;
+   }
+  }
  }
 }
 
 @media (min-width: 600px){
+
+  //Home
 
 .explanation {
  padding-left: 0px;
@@ -266,6 +302,8 @@ margin-top: 50px;
        }
       }
 
+//Contact
+
 .my-contact-container {
  .my-contact-row {
   height: 530px;
@@ -278,12 +316,16 @@ margin-top: 50px;
 }
 
 @media (min-width: 750px){ 
+  //Contact
+
     .my-contact-container {
  .my-contact-row {
   height: 360px;
   flex-direction: column;
   }
  }
+
+ //Ingredients
 
  .my-ingredient-container {
  .my-ingredient-row {
@@ -295,6 +337,8 @@ margin-top: 50px;
 }
 
 @media (min-width: 1024px) {
+
+  //Home
 
 .explanation {
  padding-left: 0px;
@@ -325,14 +369,21 @@ margin-top: 50px;
        }
       }
      }
+
+//Contact
+
 .my-contact-container {
     .my-contact-row {
  height: 360px;
  flex-direction: column;
   }
  }
+
+ //Ingredients
+ 
 .my-ingredient-container {
  .my-ingredient-row {
+   height: 445px;
   .ingredient-col {
     margin-top: 60px;
     }
