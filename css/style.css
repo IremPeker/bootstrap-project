@@ -133,7 +133,7 @@ nav .my-brand {
     flex-direction: row;
     align-content: center; }
   .explanation-how .my-row .how-works {
-    font-size: 20px;
+    font-size: 16px;
     background: rgba(255, 255, 255, 0.8);
     border-radius: 15px; } }
 
