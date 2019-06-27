@@ -186,6 +186,7 @@ margin-top: 30px;
 //Home
 
 .explanation {
+ margin-bottom: 215px;
  width: 100%;
   .my-row { 
    width: 100%;
@@ -240,6 +241,7 @@ margin-top: 30px;
  //How It Works
 
  .explanation-how {
+   margin-bottom: 75px;
   .my-row {
    .how-works {
      font-size: 16px;
@@ -255,6 +257,7 @@ margin-top: 30px;
   //Home
 
 .explanation {
+ margin-bottom: 215px;
  padding-left: 0px;
  margin-top: 35px;
   .my-row { 
@@ -283,6 +286,12 @@ margin-top: 30px;
        }
       }
 
+ //How It Works
+
+ .explanation-how {
+   margin-bottom: 100px;
+ }
+
 //Contact
 
 .my-contact-container {
@@ -297,6 +306,13 @@ margin-top: 30px;
 }
 
 @media (min-width: 750px){ 
+
+   //Home
+
+.explanation {
+  margin-bottom: 215px;
+}
+
   //Contact
 
     .my-contact-container {
@@ -322,6 +338,7 @@ margin-top: 30px;
   //Home
 
 .explanation {
+ margin-bottom: 225px;
  padding-left: 0px;
  margin-top: 35px;
   .my-row { 
@@ -350,6 +367,12 @@ margin-top: 30px;
        }
       }
      }
+
+ //How It Works
+
+ .explanation-how {
+   margin-bottom: 200px;
+ }
 
 //Contact
 
